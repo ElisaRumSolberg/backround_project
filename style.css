@@ -18,7 +18,7 @@ body{
 }
 .bg-img{
     min-height: 100svh;
-    background-color: #c5e6f1;
+    background-color:#c5e6f1;
     background-position: bottom ;
     background-repeat: no-repeat;
     background-size: cover;
@@ -107,7 +107,7 @@ article {
 }
 
  nav{
-    background-color: #c5e6f1; /* Arka plan rengi */
+    background-color:#FFFFF0; /* Arka plan rengi */
     padding: 20px; /* Nav barın iç boşluğu */
     display: flex; /* Flexbox kullanarak başlık ve listeyi hizala */
     justify-content: space-between; /* Başlık ve menüyü iki tarafa yerleştir */
@@ -148,7 +148,7 @@ a:hover {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #c5e6f1;
+    background-color:#FFFFF0;
     color: rgb(18, 26, 34);
 }
 div {
