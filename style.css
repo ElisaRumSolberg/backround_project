@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+@media (prefers-reduced-motion) {
+    html {
+        scroll-behavior: auto;
+    }
+}
+ 
+
+body{
+    min-height: 100svh;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.bg-img{
+    min-height: 100svh;
+    background-color: #c5e6f1;
+    background-position: bottom ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+
+}
+#first{
+    background-image: url(/image/4season.jpg);
+     display: grid;
+    place-items: center;
+    background-size: cover;
+    background-position: center;
+}
+
+#second{
+    background-image: url(/image/spring.jpg);
+    background-repeat: no-repeat;
+    display: grid;
+    place-items: center;
+ 
+}
+  
+   
+
+#third{
+    background-image: url(/image/summer.jpg);
+    background-repeat: no-repeat;
+    display: grid;
+    place-items: center;
+  
+}
+#fourth{
+    background-image: url(/image/autuum.jpg);
+    background-repeat: no-repeat;
+    display: grid;
+    place-items: center;
+  
+}
+#fifth{
+    background-image: url(/image/winter.jpg);
+    background-repeat: no-repeat;
+    display: grid;
+    place-items: center;
+}
+#first div {
+    height: 50px;
+    margin-top: 50px;
+}
+
+h2 
+{
+    padding: 10px 40px;
+    background-color: #c5e6f1;
+    color: rgb(39, 15, 52);
+    border-radius: 10px;
+    letter-spacing: 2px;
+    /* margin-top: -100px; /* Negatif margin ile yukarı taşı */
+    position: relative;
+    top: -130px;
+  
+}
+
+
+h3 {
+    font-size: 50px; /* H3 başlıkları küçült */
+    margin-bottom: 10px;
+    text-align: center;
+    color:rgb(82, 34, 107);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+}
+
+
+p {
+    font-size: 18px;
+    letter-spacing: .8px;
+    line-height: 24px;
+    margin-top: 20px;
+}
+article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+ nav{
+    background-color: #c5e6f1; /* Arka plan rengi */
+    padding: 20px; /* Nav barın iç boşluğu */
+    display: flex; /* Flexbox kullanarak başlık ve listeyi hizala */
+    justify-content: space-between; /* Başlık ve menüyü iki tarafa yerleştir */
+    align-items: center; /* Dikey olarak ortala */
+    width: 100%;
+    position: fixed;
+    align-items: center;
+ }
+ nav h1 {
+    color: #243338;/* Başlık yazısı rengi */
+    margin: 0; /* Başlık etrafındaki boşlukları kaldır */
+    font-size: 24px; /* Yazı boyutu */
+    font-family: Arial, sans-serif; /* Yazı tipi */
+}
+ul {
+    list-style-type: none; /* Noktaları veya sayıları kaldır */
+    margin: 0; /* Üst ve alt boşlukları kaldır */
+    padding: 0; /* İç boşlukları kaldır */
+    display: flex; /* Menü öğelerini yatay hizala */
+    column-gap: 20px;
+}
+li {
+    margin-left: 20px; /* Menü öğeleri arasındaki boşluk */
+}
+a {
+    color: #342c60;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: #221e53;
+}
+
+.information {
+    min-height: 60svh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #c5e6f1;
+    color: rgb(18, 26, 34);
+}
+div {
+  
+    max-width: 80%;
+    min-height: 50px;
+    margin: 20px 100px 0px 0px;
+}
+
+
+h1{
+    padding: 20px 40px;
+    background-color: hsla(240, 96%, 9%, 0%);
+    color: antiquewhite;
+    border: 10px;
+}
+figure {
+    width: 300px;
+}
+
+
