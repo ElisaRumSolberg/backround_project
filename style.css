@@ -28,7 +28,7 @@ body{
 
 }
 #first{
-    background-image: url(/image/4season.jpg);
+    background-image: url(./image/4season.jpg);
      display: grid;
     place-items: center;
     background-size: cover;
@@ -36,7 +36,7 @@ body{
 }
 
 #second{
-    background-image: url(/image/spring.jpg);
+    background-image: url(./image/spring.jpg);
     background-repeat: no-repeat;
     display: grid;
     place-items: center;
@@ -46,21 +46,21 @@ body{
    
 
 #third{
-    background-image: url(/image/summer.jpg);
+    background-image: url(./image/summer.jpg);
     background-repeat: no-repeat;
     display: grid;
     place-items: center;
   
 }
 #fourth{
-    background-image: url(/image/autuum.jpg);
+    background-image: url(./image/autuum.jpg);
     background-repeat: no-repeat;
     display: grid;
     place-items: center;
   
 }
 #fifth{
-    background-image: url(/image/winter.jpg);
+    background-image: url(./image/winter.jpg);
     background-repeat: no-repeat;
     display: grid;
     place-items: center;
